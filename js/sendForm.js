@@ -28,7 +28,7 @@ const sendForm = () => {
             })
             .then((json) => console.log(json))
             .catch((error) => {
-                console.warn(error)
+                alert('Ошибка: ' + error.message);
             })
             .finally(() => {
                 form.reset()
