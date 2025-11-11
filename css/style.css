@@ -624,7 +624,7 @@ progress::-moz-progress-value {
 
 .modal-close {
     position: absolute;
-    top: 26rem;
+    top: 18rem;
     right: 67rem;
     width: 5rem;
     height: 5rem;
